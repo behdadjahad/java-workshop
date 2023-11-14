@@ -1,21 +1,48 @@
-import java.util.Scanner;
 
-
-public class More_basic {
+public class More_basics {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        Scanner scanner = new Scanner(System.in);
+        int myNumber;
+        myNumber = 5;
+        System.out.println(myNumber);
 
-        System.out.println("tedad ra vared konid:");
-        int num = scan.nextInt();
-        String[] names = new String[num];
-        for (int i = 0 ; i < num ; i++) {
-            System.out.println("nam ra vared konid:");
-            names[i] = scanner.nextLine();
-        }
+        double d = 4.5;
+        d = 3.0;
+        System.out.println(d);
 
-        for (int i = 0 ; i < num ; i++) {
-            System.out.println(names[i]);
-        }
+        float f = (float) 4.5;
+
+        f = 3.14f;
+        System.out.println(f);
+
+        char c = 'g';
+
+        System.out.println(c);
+
+
+        String s1 = new String("Who let the dogs out?");
+        String s2 = "Who who who who!";
+        String s3 = s1 + s2;
+
+        System.out.println(s3);
+
+
+        int num = 5;
+        String s = "I have " + num + " cookies";
+        System.out.println(s);
+
+        boolean b = false;
+        b = true;
+        System.out.println(b);
+
+        boolean toBe = false;
+        b = toBe || !toBe;
+
+        System.out.println(b);
+
+
+
+
+
+
     }
 }
